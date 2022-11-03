@@ -43,10 +43,10 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
         <div className="w-[360px] h-[200px] sm:h-[200px] md:w-[400px] md:h-[280px] lg:w-full lg:h-3/4 flex justify-center items-center border-t-black border-x-black border-b-0 border-4 relative bg-black">
           <Image
             src={image}
-            layout="fill"
             alt="project"
-            objectFit="contain"
-            className="shrink-0"
+            fill
+            priority
+            className="object-contain overflow-hidden"
           />
         </div>
         <ul className="w-[360px] h-14 lg:h-1/4 md:w-[400px] lg:w-full flex justify-around items-center  border-4 border-black shadow-inner">

@@ -16,3 +16,9 @@
   height: calc(100% - 240px);
   max-height: calc(100% - 240px);
 }
+
+.next-headshot {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}

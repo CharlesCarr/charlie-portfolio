@@ -8,10 +8,10 @@ function LeftSection() {
       <div className="w-44 h-44 sm:w-60 sm:h-80 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
         <Image
           src="/images/headshot.jpeg"
-          layout="fill"
           alt="headshot"
-          objectFit="cover"
-          className="rounded-2xl"
+          fill
+          priority
+          className="rounded-2xl object-cover overflow-hidden"
         />
       </div>
 
