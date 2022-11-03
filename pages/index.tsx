@@ -5,7 +5,7 @@ import LeftSection from "../components/sections/LeftSection";
 
 export default function Home() {
   return (
-    <div className="h-full lg:h-screen lg:max-h-screen w-screen max-w-screen flex flex-col justify-center items-center bg-[#ced1d3]">
+    <div className="h-full lg:h-screen lg:max-h-screen w-screen max-w-screen flex flex-col justify-center items-center bg-[#ced1d3] overflow-hidden">
       <Head>
         <title>Charlie Carr</title>
         <meta name="description" content="Charlie Carr Web Dev Portfolio" />
@@ -14,7 +14,7 @@ export default function Home() {
 
       <Header />
       {/* main content */}
-      <div className="w-full h-full lg:h-header flex flex-col lg:flex-row justify-center items-center">
+      <div className="w-full h-full lg:h-header flex flex-col lg:flex-row justify-center items-center lg:justify-start lg:items-start">
         {/* LEFT SECTION */}
         <LeftSection />
         {/* RIGHT SECTION */}

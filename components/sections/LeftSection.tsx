@@ -4,7 +4,7 @@ import { GrMail } from "react-icons/gr";
 
 function LeftSection() {
   return (
-    <section className="w-full lg:w-1/4 h-full flex lg:flex-col justify-around items-center lg:border-r-4 border-black border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5]">
+    <section className="w-full lg:w-1/4 h-header flex-col md:flex lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5]">
       <div className="w-44 h-44 sm:w-60 sm:h-80 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
         <Image
           src="/images/headshot.jpeg"

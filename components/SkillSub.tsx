@@ -10,7 +10,7 @@ const SkillSub = ({ category, skills }: any) => {
             category === "LANGUAGES"
               ? "grid-cols-2 md:grid-cols-1"
               : "grid-cols-3 md:grid-cols-2"
-          } w-full h-full list-none gap-y-4 text-center`}
+          } w-full h-full list-none gap-y-0 text-center m-0 p-0`}
         >
           {skills.map((skill: string) => (
             <li className="text-sm sm:text-lg md:text-base text-center font-bold tracking-wider flex justify-center items-center">

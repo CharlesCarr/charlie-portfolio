@@ -5,7 +5,7 @@ function Header() {
   const [lightMode, setLightMode] = useState<boolean>(true);
 
   return (
-    <header className="flex h-16 w-full justify-between items-center px-12  border-b-black border-t-0 border-x-0 border-4 bg-[#e1e2e6]">
+    <header className="flex h-header-actual w-full justify-between items-center px-12 border-b-black border-t-0 border-x-0 border-4 bg-[#e1e2e6]">
       {/* right header */}
       <div className="flex justify-center items-center">
         <p className="text-xl sm:text-3xl">charlie-carr.com</p>
