@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.h-header {
+  height: calc(100vh - 64px);
+  max-height: calc(100vh - 64px);
+}
+
+.h-main {
+  height: calc(100% - 64px);
+  max-height: calc(100% - 64px);
+}
+
+.h-left {
+  height: calc(100% - 240px);
+  max-height: calc(100% - 240px);
+}
