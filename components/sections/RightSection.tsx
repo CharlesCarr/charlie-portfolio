@@ -13,7 +13,7 @@ function RightSection() {
           <li
             className={`${
               filterState === "Latest Projects"
-                ? "border-b-2 lg:border-b-4 border-black font-bold"
+                ? "border-b-2 lg:border-b-4 border-black dark:border-gray-200 font-bold"
                 : "font-light"
             } mr-8 lg:mr-16 cursor-pointer`}
             onClick={(e: any) => setFilterState(e.target.innerText)}
@@ -23,7 +23,7 @@ function RightSection() {
           <li
             className={`${
               filterState === "Skillset"
-                ? "border-b-2 lg:border-b-4 border-black font-bold"
+                ? "border-b-2 lg:border-b-4 border-black dark:border-gray-200 font-bold"
                 : "font-light"
             } mr-8 lg:mr-16 cursor-pointer`}
             onClick={(e: any) => setFilterState(e.target.innerText)}
@@ -33,7 +33,7 @@ function RightSection() {
           <li
             className={`${
               filterState === "About"
-                ? "border-b-2 lg:border-b-4 border-black font-bold"
+                ? "border-b-2 lg:border-b-4 border-black dark:border-gray-200 font-bold"
                 : "font-light"
             } mr-8 lg:mr-16 cursor-pointer`}
             onClick={(e: any) => setFilterState(e.target.innerText)}

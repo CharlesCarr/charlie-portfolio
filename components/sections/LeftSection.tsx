@@ -4,7 +4,7 @@ import { GrMail } from "react-icons/gr";
 
 function LeftSection() {
   return (
-    <section className="w-full lg:w-1/4 h-header flex-col md:flex lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5]">
+    <section className="w-full lg:w-1/4 h-header flex-col md:flex lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black dark:border-gray-200 border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5] dark:bg-neutral-800">
       <div className="w-44 h-44 sm:w-60 sm:h-80 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
         <Image
           src="/images/headshot.jpeg"
@@ -15,7 +15,7 @@ function LeftSection() {
         />
       </div>
 
-      <div className="w-1/2 lg:w-full h-60 flex flex-col justify-between items-center border-4 border-black mt-4 px-2 lg:px-4 py-6 shadow-inner bg-[#ced1d3]">
+      <div className="w-1/2 lg:w-full h-60 flex flex-col justify-between items-center border-4 border-black dark:border-gray-200 mt-4 px-2 lg:px-4 py-6 shadow-inner bg-[#ced1d3] dark:bg-neutral-700">
         <p className="text-lg sm:text-xl lg:text-2xl mb-2 tracking-wide">
           CHARLIE CARR
         </p>
@@ -40,7 +40,7 @@ function LeftSection() {
           </div>
         </div>
 
-        <div className="w-full h-4 border-b-2 border-black"></div>
+        <div className="w-full h-4 border-b-2 border-black dark:border-gray-200"></div>
 
         <ul className="w-full m-0 p-0 mt-3 flex flex-col justify-center items-center lg:block">
           <li className="text-xs font-light mb-2">
