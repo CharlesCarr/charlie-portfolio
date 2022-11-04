@@ -1,13 +1,14 @@
 const AboutSection = () => {
   return (
-    <div className="w-full h-[650px] lg:h-full flex flex-col justify-center items-center sm:items-start text-sm xl:text-base text-center sm:text-start px-5 sm:px-0 sm:pl-32 border-black dark:border-gray-200 border-4 bg-[#acafb5]">
-      <h1 className="text-3xl xl:text-4xl mb-4">Hi there!</h1>
-      <p className="w-full xl:w-3/4 mb-4 leading-7 sm:pr-8 xl:pr-0">
+    <div className="w-full h-[650px] lg:h-full flex flex-col justify-center items-center py-3 text-sm xl:text-base text-center sm:text-start px-6 sm:px-0 sm:pl-6 border-black dark:border-gray-200 border-4 bg-[#acafb5] dark:bg-neutral-800 dark:text-gray-200">
+      {/* <h1 className="text-3xl xl:text-4xl mb-4 w-full sm:pr-8 xl:pr-0">Hi there!</h1> */}
+      <p className="w-full xl:w-3/4 mb-2 leading-7 sm:pr-8 xl:pr-0 text-2xl xl:text-4xl">Hi there!</p>
+      <p className="w-full xl:w-3/4 mb-2 leading-7 sm:pr-8 xl:pr-0">
         My name is Charlie Carr and I am a NYC-based software developer. I am
         currently pursuing my next opportunity and open to both remote and
         in-office work.
       </p>
-      <p className="w-full xl:w-3/4 mb-4 leading-7 sm:pr-8 xl:pr-0">
+      <p className="w-full xl:w-3/4 mb-2 leading-7 sm:pr-8 xl:pr-0">
         I have spent my career in tech working in enterprise software for both
         small startups as well as large tech corporations. After starting in
         software sales, my passion and curiosity for these products fueled my

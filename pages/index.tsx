@@ -13,11 +13,8 @@ export default function Home() {
       </Head>
 
       <Header />
-      {/* main content */}
       <div className="w-full h-full lg:h-header flex flex-col lg:flex-row justify-center items-center lg:justify-start lg:items-start">
-        {/* LEFT SECTION */}
         <LeftSection />
-        {/* RIGHT SECTION */}
         <RightSection />
       </div>
     </div>
