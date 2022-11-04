@@ -3,6 +3,10 @@ import { FaMapPin, FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 function LeftSection() {
+  const iconClickHandler = (link: string) => {
+    window.open(link);
+  };
+
   return (
     <section className="w-full lg:w-1/4 h-header flex-col md:flex lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black dark:border-gray-200 border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5] dark:bg-neutral-800">
       <div className="w-44 h-44 sm:w-60 sm:h-80 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
@@ -21,13 +25,13 @@ function LeftSection() {
         </p>
         <ul className="w-full flex justify-center items-center m-0 p-0">
           <li className="mr-3">
-            <FaLinkedin className="w-6 h-6 cursor-pointer" />
+            <FaLinkedin className="w-6 h-6 cursor-pointer" onClick={() => iconClickHandler("https://www.linkedin.com/in/charliecarr4/")} />
           </li>
           <li className="mr-3">
-            <FaGithub className="w-6 h-6 cursor-pointer" />
+            <FaGithub className="w-6 h-6 cursor-pointer" onClick={() => iconClickHandler("https://github.com/CharlesCarr")} />
           </li>
           <li>
-            <GrMail className="w-6 h-6 cursor-pointer" />
+            <GrMail className="w-6 h-6 cursor-pointer" onClick={() => iconClickHandler("mailto:charliecarr4@gmail.com")} />
           </li>
         </ul>
         <div className="w-full flex justify-between items-center mt-3">
