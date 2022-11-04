@@ -9,13 +9,13 @@ function LeftSection() {
 
   return (
     <section className="w-full lg:w-1/4 h-header flex-col md:flex lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black dark:border-gray-200 border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5] dark:bg-neutral-800">
-      <div className="w-44 h-44 sm:w-60 sm:h-80 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
+      <div className="bg-black rounded-2xl w-44 h-44 sm:w-60 sm:h-80 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
         <Image
           src="/images/headshot.jpeg"
           alt="headshot"
           fill
           priority
-          className="rounded-2xl object-cover overflow-hidden"
+          className="rounded-2xl object-contain overflow-hidden"
         />
       </div>
 
