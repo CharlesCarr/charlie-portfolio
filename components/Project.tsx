@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { FiLink } from "react-icons/fi";
+import { HiExternalLink } from "react-icons/hi";
 import Image from "next/image";
 
 const Project = ({ title, image, description, github, demo, tech }: any) => {
@@ -29,7 +29,7 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
             />
           </li>
           <li>
-            <FiLink
+            <HiExternalLink
               className="w-8 h-8 ml-3 cursor-pointer"
               onClick={() => demoClickHandler()}
             />
