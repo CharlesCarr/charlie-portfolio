@@ -20,7 +20,7 @@ function LeftSection() {
       </div>
 
       <div className="w-full lg:w-full sm:w-1/2 sm:h-1/2 h-60 flex flex-col justify-between items-center border-4 border-black dark:border-gray-200 mt-4 px-2 lg:px-4 py-6 shadow-inner bg-[#ced1d3] dark:bg-neutral-700">
-        <p className="text-lg sm:text-3xl lg:text-2xl mb-2 tracking-wide">
+        <p className="text-3xl lg:text-2xl mb-2 tracking-wide">
           CHARLIE CARR
         </p>
         <ul className="w-full flex justify-center items-center m-0 p-0">
@@ -46,12 +46,12 @@ function LeftSection() {
           </li>
         </ul>
         <div className="w-full flex justify-between items-center mt-3 md:px-2 lg:px-0">
-          <p className="font-light text-sm sm:text-base md:text-lg lg:text-sm">
+          <p className="font-light text-base md:text-lg lg:text-sm">
             Software Developer
           </p>
           <div className="flex items-center justify-center">
             <FaMapPin className="text-red-600 w-4 h-4" />
-            <p className="text-sm sm:text-base md:text-lg lg:text-sm ml-px">
+            <p className="text-base md:text-lg lg:text-sm ml-px">
               NYC
             </p>
           </div>
@@ -60,13 +60,13 @@ function LeftSection() {
         <div className="w-full h-4 border-b-2 border-black dark:border-gray-200"></div>
 
         <ul className="w-full m-0 p-0 mt-3 flex flex-col justify-center items-center lg:block">
-          <li className="text-xs md:text-base lg:text-xs font-light mb-2">
+          <li className="text-sm md:text-base lg:text-xs font-light mb-2">
             Prev. Front End Intern @ Revelio Labs
           </li>
-          <li className="text-xs  md:text-base lg:text-xs  font-light mb-2">
+          <li className="text-sm  md:text-base lg:text-xs  font-light mb-2">
             React / TypeScript Enthusiast
           </li>
-          <li className="text-xs md:text-base lg:text-xs font-light">
+          <li className="text-sm md:text-base lg:text-xs font-light">
             Customer Focused
           </li>
         </ul>
