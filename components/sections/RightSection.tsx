@@ -7,9 +7,9 @@ function RightSection() {
   const [filterState, setFilterState] = useState<string>("Latest Projects");
 
   return (
-    <main className="w-full lg:w-3/4 h-full flex flex-col p-6">
+    <main className="w-full lg:w-3/4 h-full flex flex-col p-6 px-px sm:px-6">
       <div className="flex justify-center items-end w-full h-1/6">
-        <ul className="m-0 p-0 w-full flex justify-start items-end pl-5 pb-2 text-xl lg:text-3xl">
+        <ul className="m-0 p-0 w-full flex justify-start items-end pl-5 pb-2 text-lg sm:text-xl lg:text-3xl">
           <li
             className={`${
               filterState === "Latest Projects"

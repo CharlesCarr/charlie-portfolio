@@ -44,7 +44,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="w-full h-full flex flex-col md:flex-row items-center justify-center">
+    <div className="w-full h-full md:h-[450px] lg:h-full flex flex-col md:flex-row items-center justify-center">
       <div className="h-full w-full md:w-1/4 border-black dark:border-gray-200 border-4 mr-2 md:mr-2 mb-4 md:mb-0">
         <SkillSub
           category={allSkills[0].skillCat}
