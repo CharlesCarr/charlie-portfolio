@@ -1,4 +1,4 @@
-import SkillSub from "../SkillSub";
+import SkillSub from "../components/SkillSub";
 
 const Skills = () => {
   const allSkills = [
