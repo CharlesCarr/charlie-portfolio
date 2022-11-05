@@ -24,7 +24,7 @@ function LeftSection() {
           CHARLIE CARR
         </p>
         <ul className="w-full flex justify-center items-center m-0 p-0">
-          <li className="mr-3">
+          <li className="mr-5">
             <FaLinkedin
               className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer"
               onClick={() =>
@@ -32,7 +32,7 @@ function LeftSection() {
               }
             />
           </li>
-          <li className="mr-3">
+          <li className="mr-5">
             <FaGithub
               className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer"
               onClick={() => iconClickHandler("https://github.com/CharlesCarr")}
