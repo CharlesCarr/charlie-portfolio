@@ -13,7 +13,7 @@ const SkillSub = ({ category, skills }: any) => {
           } w-full h-full list-none gap-y-0 text-center m-0 p-0`}
         >
           {skills.map((skill: string) => (
-            <li className="text-base sm:text-lg text-center lg:font-bold tracking-wider flex justify-center items-start">
+            <li className="text-base sm:text-lg text-center tracking-wider flex justify-center items-start">
               {skill}
             </li>
           ))}
