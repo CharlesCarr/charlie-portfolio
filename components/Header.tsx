@@ -31,6 +31,10 @@ function Header() {
     }
   };
 
+  const openResume = () => {
+    window.open("/CharlieCarrResumeNov2022.pdf");
+  };
+
   return (
     <header className="flex h-header-actual w-full justify-between items-center px-4 sm:px-12 border-b-black dark:border-b-gray-200 border-t-0 border-x-0 border-4 bg-[#e1e2e6] dark:bg-neutral-700">
       {/* right header */}
@@ -45,7 +49,7 @@ function Header() {
           Resume
         </button> */}
 
-        <button className="ml-5">
+        <button className="ml-5" onClick={() => openResume()}>
           <a
             // href="#_"
             className="relative inline-flex items-center justify-start px-4 py-2 overflow-hidden font-medium transition-all border-2 border-black dark:border-gray-200 group"
