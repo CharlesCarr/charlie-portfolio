@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Software Development Portfolio Website
 
-## Getting Started
+My personal software development portfolio website to display my projects and provide career information.
 
-First, run the development server:
+[charlie-carr.com](https://www.charlie-carr.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I designed and built this mobile friendly, responsive project portfolio with React and Next.js. I used the combination of React and Next.js for enhanced performance with stronger SEO and UX thanks to both server side and dynamic client side rendering. I designed this website in Figma prior to building and used Tailwind CSS utility classes for styling.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Latest Projects
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. NFL Stats Dashboard
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+NFL stats dashboard (full stack web app) using AWS's Next Gen NFL Stats for displaying and tracking passing data.
+[NFL Stats Dashboard App GitHub Repo](https://github.com/CharlesCarr/nfl_nextgen_stats)
+[NFL Stats Dashboard App Live Demo](https://react-nfl.onrender.com/)
+![Screenshot](/public/images/projects/nfl-app.png)
 
-## Learn More
+2. NFT Website
 
-To learn more about Next.js, take a look at the following resources:
+NFT collection website with a clean and modern design. NFT images were created using StarryAI's AI generation.
+[NFT Website GitHub Repo](https://github.com/CharlesCarr/next-nft-landing-page)
+[NFT Website App Live Demo](https://next-nft-landing-page.vercel.app/)
+![Screenshot](/public/images/projects/nft-collection-screen-one.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Workout App
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Custom workout tracker web app. Enabling users to create profiles and create, save, and edit workouts. Ability to select workout for the day to have on hand while at the gym. 
+[Workout App GitHub Repo](https://github.com/CharlesCarr/workout-v2)
+[Workout App Live Demo](https://workout-tracker-faa13.web.app/)
+![Screenshot](/public/images/projects/WorkoutApp.png)
 
-## Deploy on Vercel
+4. 'StockChartz'
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Stock tracking chart web app. Users input stock ticker(s) to display and compare stock price chart data and percentage change.
+[StockChartz GitHub Repo](https://github.com/CharlesCarr/react-stock-chart)
+[StockChartz Live Demo](https://stockchartz.web.app/)
+![Screenshot](/public/images/projects/StockChartz.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Hosting
+
+Hosted with Vercel
+Link: [My Portfolio Website](https://www.charlie-carr.com)
