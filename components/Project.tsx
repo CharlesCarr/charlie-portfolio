@@ -51,7 +51,7 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
         </div>
         <ul className="w-full sm:w-[360px] h-14 md:h-1/4 md:w-[400px] lg:w-full flex justify-around items-center  border-4 border-black dark:border-gray-200 shadow-inner">
           {tech.map((t: string) => (
-            <li className="font-normal sm:font-bold text-xs sm:text-sm lg:text-base xl:text-lg tracking-normal lg:tracking-wide">
+            <li className="font-normal xl:font-bold text-xs sm:text-sm lg:text-base xl:text-lg tracking-normal lg:tracking-wide">
               {t}
             </li>
           ))}
