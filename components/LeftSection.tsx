@@ -15,12 +15,13 @@ function LeftSection() {
           alt="headshot"
           fill
           priority
+          // min-h-[250px]
           className="rounded-2xl object-cover xl:object-contain overflow-hidden"
         />
       </div>
 
       <div className="w-full lg:w-full sm:w-1/2 sm:h-1/2 h-60 flex flex-col justify-between items-center border-4 border-black dark:border-gray-200 mt-4 px-2 lg:px-4 py-6 shadow-inner bg-[#ced1d3] dark:bg-neutral-700">
-        <p className="text-3xl sm:text-4xl mb-2 tracking-wide text-center">
+        <p className="text-3xl sm:text-2xl 2xl:text-4xl mb-2 tracking-wide text-center">
           CHARLIE CARR
         </p>
         <ul className="w-full flex justify-center items-center m-0 p-0">
@@ -60,13 +61,13 @@ function LeftSection() {
         <div className="w-full h-4 border-b-2 border-black dark:border-gray-200"></div>
 
         <ul className="w-full m-0 p-0 mt-3 flex flex-col justify-center items-center lg:block">
-          <li className="text-sm md:text-base lg:text-xs xl:text-sm font-light mb-2">
+          <li className="text-sm lg:text-xs 2xl:text-sm font-light mb-2">
             Prev. Front End Intern @ Revelio Labs
           </li>
-          <li className="text-sm  md:text-base lg:text-xs xl:text-sm  font-light mb-2">
+          <li className="text-sm lg:text-xs 2xl:text-sm font-light mb-2">
             React / TypeScript Enthusiast
           </li>
-          <li className="text-sm md:text-base lg:text-xs xl:text-sm font-light">
+          <li className="text-sm lg:text-xs 2xl:text-sm font-light">
             Customer Focused
           </li>
         </ul>
