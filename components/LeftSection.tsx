@@ -8,7 +8,7 @@ function LeftSection() {
   };
 
   return (
-    <section className="w-full lg:w-1/4 h-header flex flex-col sm:flex-col-reverse md:flex-row lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black dark:border-gray-200 border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5] dark:bg-neutral-800">
+    <section className="w-full lg:w-1/4 h-header flex flex-col sm:flex-col-reverse md:flex-row lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black dark:border-gray-200 border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5] dark:bg-neutral-900">
       <div className="bg-black rounded-2xl w-52 h-60 sm:w-60 sm:mt-5 sm:h-1/2 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
         <Image
           src="/images/headshot.jpg"
@@ -20,14 +20,14 @@ function LeftSection() {
         />
       </div>
 
-      <div className="w-full lg:w-full sm:w-1/2 sm:h-1/2 h-60 flex flex-col justify-between items-center border-4 border-black dark:border-gray-200 mt-4 px-2 lg:px-4 py-6 shadow-inner bg-[#ced1d3] dark:bg-neutral-700">
+      <div className="w-full lg:w-full sm:w-1/2 sm:h-1/2 h-60 flex flex-col justify-between items-center border-4 border-black dark:border-gray-200 mt-4 px-2 lg:px-4 py-6 shadow-inner bg-[#ced1d3] dark:bg-neutral-800">
         <p className="text-3xl sm:text-2xl 2xl:text-4xl mb-2 tracking-wide text-center">
           CHARLIE CARR
         </p>
         <ul className="w-full flex justify-center items-center m-0 p-0">
           <li className="mr-5">
             <FaLinkedin
-              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-black"
+              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-white dark:hover:text-black"
               onClick={() =>
                 iconClickHandler("https://www.linkedin.com/in/charliecarr4/")
               }
@@ -35,13 +35,13 @@ function LeftSection() {
           </li>
           <li className="mr-5">
             <FaGithub
-              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-black"
+              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-white dark:hover:text-black"
               onClick={() => iconClickHandler("https://github.com/CharlesCarr")}
             />
           </li>
           <li>
             <GrMail
-              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-black"
+              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-white dark:hover:text-black"
               onClick={() => iconClickHandler("mailto:charliecarr4@gmail.com")}
             />
           </li>
