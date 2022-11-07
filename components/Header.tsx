@@ -17,14 +17,14 @@ function Header() {
     if (currentTheme === "dark") {
       return (
         <BsMoonFill
-          className="w-6 h-6 cursor-pointer"
+          className="w-6 h-6 cursor-pointer hover:text-black"
           onClick={() => setTheme("light")}
         />
       );
     } else {
       return (
         <BsSunFill
-          className="w-6 h-6 cursor-pointer"
+          className="w-6 h-6 cursor-pointer hover:text-black"
           onClick={() => setTheme("dark")}
         />
       );

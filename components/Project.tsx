@@ -24,13 +24,13 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
         <ul className="m-0 p-0 w-full flex justify-center items-center">
           <li>
             <FaGithub
-              className="w-8 h-8 mr-3 cursor-pointer"
+              className="w-8 h-8 mr-3 cursor-pointer hover:text-black"
               onClick={() => gitHubClickHandler()}
             />
           </li>
           <li>
             <HiExternalLink
-              className="w-8 h-8 ml-3 cursor-pointer"
+              className="w-8 h-8 ml-3 cursor-pointer hover:text-black"
               onClick={() => demoClickHandler()}
             />
           </li>
