@@ -14,7 +14,7 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
   return (
     <div className="h-full md:h-[450px] lg:h-full w-full flex flex-col sm:flex-row justify-center items-center mt-2 sm:mt-0">
       {/* left side project */}
-      <div className="w-full sm:w-1/3 h-64 sm:h-full border-4 border-black dark:border-gray-200 flex flex-col justify-between items-center py-4 sm:px-2 lg:px-4 mr-0 sm:mr-2 bg-[#acafb5] dark:bg-neutral-800 mb-6 sm:mb-0">
+      <div className="w-full sm:w-1/3 h-64 sm:h-full border-4 border-black dark:border-gray-200 flex flex-col justify-between items-center py-4 lg:py-12 sm:px-2 lg:px-4 mr-0 sm:mr-2 bg-[#acafb5] dark:bg-neutral-800 mb-6 sm:mb-0">
         <h1 className="font-bold mb-2 text-base lg:text-2xl tracking-wide text-center">
           {title}
         </h1>
