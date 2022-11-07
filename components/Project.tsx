@@ -19,7 +19,7 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
           {title}
         </h1>
         <div className="w-full h-1 border-t-black dark:border-t-gray-200 border-b-0 border-x-0 border-4 mb-2"></div>
-        <p className="text-sm xl:text-base text-center leading-6 px-3">{description}</p>
+        <p className="text-sm xl:text-base text-center leading-6 xl:leading-8 px-3">{description}</p>
         <div className="w-full h-4 border-t-black dark:border-t-gray-200 border-b-0 border-x-0 border-4 mt-2"></div>
         <ul className="m-0 p-0 w-full flex justify-center items-center">
           <li>
