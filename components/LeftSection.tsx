@@ -27,7 +27,7 @@ function LeftSection() {
         <ul className="w-full flex justify-center items-center m-0 p-0">
           <li className="mr-5">
             <FaLinkedin
-              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-white dark:hover:text-black"
+              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:scale-125"
               onClick={() =>
                 iconClickHandler("https://www.linkedin.com/in/charliecarr4/")
               }
@@ -35,13 +35,13 @@ function LeftSection() {
           </li>
           <li className="mr-5">
             <FaGithub
-              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-white dark:hover:text-black"
+              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:scale-125"
               onClick={() => iconClickHandler("https://github.com/CharlesCarr")}
             />
           </li>
           <li>
             <GrMail
-              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:text-white dark:hover:text-black"
+              className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6 cursor-pointer hover:scale-125"
               onClick={() => iconClickHandler("mailto:charliecarr4@gmail.com")}
             />
           </li>
