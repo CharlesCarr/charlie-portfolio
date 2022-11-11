@@ -18,21 +18,27 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
         <h1 className="font-bold mb-2 text-base lg:text-2xl tracking-wide text-center">
           {title}
         </h1>
-        <div className="w-full h-1 border-t-black dark:border-t-gray-200 border-b-0 border-x-0 border-4 mb-2"></div>
-        <p className="text-sm 2xl:text-base text-center leading-6 2xl:leading-8 px-3">{description}</p>
-        <div className="w-full h-4 border-t-black dark:border-t-gray-200 border-b-0 border-x-0 border-4 mt-2"></div>
-        <ul className="m-0 p-0 w-full flex justify-center items-center">
+        <div className="w-full h-1 border-t-black dark:border-t-gray-200 border-b-0 border-x-0 border-4 mb-1"></div>
+        <p className="text-sm 2xl:text-base text-center leading-6 2xl:leading-8 px-3">
+          {description}
+        </p>
+        <div className="w-full h-4 border-t-black dark:border-t-gray-200 border-b-0 border-x-0 border-4 mt-1"></div>
+        <ul className="m-0 p-0 w-full flex justify-center items-start">
           <li>
-            <FaGithub
-              className="w-8 h-8 mr-3 cursor-pointer hover:scale-125"
+            <button
               onClick={() => gitHubClickHandler()}
-            />
+              className="p-2 border-2 border-black dark:border-gray-200 rounded-full flex justify-center items-center mr-3 cursor-pointer hover:scale-110 hover:shadow-lg"
+            >
+              <FaGithub className="w-8 h-8 " />
+            </button>
           </li>
           <li>
-            <HiExternalLink
-              className="w-8 h-8 ml-3 cursor-pointer hover:scale-125"
+            <button
               onClick={() => demoClickHandler()}
-            />
+              className="p-2 border-2 border-black dark:border-gray-200 rounded-full flex justify-center items-center ml-3 cursor-pointer hover:scale-110 hover:shadow-lg"
+            >
+              <HiExternalLink className="w-8 h-8" />
+            </button>
           </li>
         </ul>
       </div>
