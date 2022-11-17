@@ -20,7 +20,7 @@ const allProjects = [
       "Sales prospecting CRM web app for sales professionals to track their accounts, prospects, and interactions in a seamless and modern UI/UX.",
     github: "https://github.com/CharlesCarr/full-stack-crm",
     // demo: "https://react-nfl.onrender.com/",
-    tech: ["Node/Express/MongoDB", "React/JavaScript", "Apollo/GraphQL", "Tailwind"],
+    tech: ["MongoDB/Express/React/Node", "Apollo/GraphQL"],
   },
   {
     id: 2,
