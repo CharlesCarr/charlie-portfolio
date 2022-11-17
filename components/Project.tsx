@@ -52,7 +52,8 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
             alt="project"
             fill
             priority
-            className="object-contain overflow-hidden"
+            className="object-contain overflow-hidden cursor-pointer"
+            onClick={() => gitHubClickHandler()}
           />
         </div>
         <ul className="w-full sm:w-[360px] h-14 md:h-1/4 md:w-[400px] lg:w-full flex justify-around items-center  border-4 border-black dark:border-gray-200 shadow-inner">
