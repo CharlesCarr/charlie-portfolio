@@ -14,6 +14,16 @@ const allProjects = [
   },
   {
     id: 1,
+    title: "CRM WEB APP",
+    image: "/images/projects/crm.png",
+    description:
+      "Sales prospecting CRM web app for sales professionals to track their accounts, prospects, and interactions in a seamless and modern UI/UX.",
+    github: "https://github.com/CharlesCarr/full-stack-crm",
+    // demo: "https://react-nfl.onrender.com/",
+    tech: ["Node/Express/MongoDB", "React/JavaScript", "Apollo/GraphQL", "Tailwind"],
+  },
+  {
+    id: 2,
     title: "NFT WEBSITE",
     image: "/images/projects/nft-collection-screen-one.png",
     description:
@@ -23,7 +33,7 @@ const allProjects = [
     tech: ["React JS", "TypeScript", "Next.js", "TailwindCSS"],
   },
   {
-    id: 2,
+    id: 3,
     title: "WORKOUT APP",
     image: "/images/projects/WorkoutApp.png",
     description:
@@ -33,7 +43,7 @@ const allProjects = [
     tech: ["React JS", "Material UI", "Firebase"],
   },
   {
-    id: 3,
+    id: 4,
     title: "STOCKCHARTZ",
     image: "/images/projects/StockChartz.png",
     description:
