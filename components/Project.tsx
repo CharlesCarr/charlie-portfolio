@@ -8,7 +8,11 @@ const Project = ({ title, image, description, github, demo, tech }: any) => {
   };
 
   const demoClickHandler = () => {
-    window.open(demo);
+    if (demo !== "") {
+      window.open(demo);
+    } else {
+      return;
+    }
   };
 
   return (
