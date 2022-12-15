@@ -32,7 +32,7 @@ function Header() {
   };
 
   const openResume = () => {
-    window.open("/CharlieCarrResumeNov2022.pdf");
+    window.open("/CharlieCarrResumeDec2022.pdf");
   };
 
   return (
