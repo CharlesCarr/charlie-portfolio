@@ -66,9 +66,9 @@ function Projects() {
             <li
               className={`${
                 projectSelected === project.id
-                  ? "bg-black dark:bg-gray-200"
+                  ? "bg-gray-200"
                   : null
-              } mr-4 border-2 border-black dark:border-gray-200 w-3 h-3 rounded-full cursor-pointer`}
+              } mr-4 border-2 border-gray-200 w-3 h-3 rounded-full cursor-pointer`}
               onClick={() => setProjectSelected(project.id)}
             ></li>
           );

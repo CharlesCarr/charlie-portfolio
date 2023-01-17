@@ -8,8 +8,8 @@ function LeftSection() {
   };
 
   return (
-    <section className="w-full lg:w-1/4 h-header flex flex-col sm:flex-col-reverse md:flex-row lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-black dark:border-gray-200 border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-[#acafb5] dark:bg-neutral-900">
-      <div className="bg-black dark:bg-neutral-800 rounded-2xl w-52 h-60 sm:w-60 sm:mt-5 sm:h-1/2 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
+    <section className="w-full lg:w-1/4 h-header flex flex-col sm:flex-col-reverse md:flex-row lg:flex-col justify-center md:justify-around items-center lg:border-r-4 border-gray-200 border-0 border-b-4 lg:border-b-0 px-6 py-6 bg-neutral-900">
+      <div className="bg-neutral-800 rounded-2xl w-52 h-60 sm:w-60 sm:mt-5 sm:h-1/2 lg:w-full lg:h-left flex flex-col justify-center items-center relative">
         <Image
           src="/images/headshot.jpg"
           alt="headshot"
@@ -20,7 +20,7 @@ function LeftSection() {
         />
       </div>
 
-      <div className="w-full lg:w-full sm:w-1/2 sm:h-1/2 h-60 flex flex-col justify-between items-center border-4 border-black dark:border-gray-200 mt-4 px-2 lg:px-4 py-6 shadow-inner bg-[#ced1d3] dark:bg-neutral-800">
+      <div className="w-full lg:w-full sm:w-1/2 sm:h-1/2 h-60 flex flex-col justify-between items-center border-4 border-gray-200 mt-4 px-2 lg:px-4 py-6 shadow-inner bg-neutral-800">
         <p className="text-3xl sm:text-2xl 2xl:text-4xl mb-2 tracking-wide text-center">
           CHARLIE CARR
         </p>
@@ -58,7 +58,7 @@ function LeftSection() {
           </div>
         </div>
 
-        <div className="w-full h-4 border-b-2 border-black dark:border-gray-200"></div>
+        <div className="w-full h-4 border-b-2 border-gray-200"></div>
 
         <ul className="w-full m-0 p-0 mt-3 flex flex-col justify-center items-center lg:block">
           <li className="text-sm lg:text-xs 2xl:text-sm font-light mb-2">

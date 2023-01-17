@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <div className="w-full h-[650px] sm:h-[450px] lg:h-full flex flex-col justify-center items-center py-3 text-sm 2xl:text-base text-center sm:text-start px-6 sm:px-0 sm:pl-2 border-black dark:border-gray-200 border-4 bg-[#acafb5] dark:bg-neutral-800 dark:text-gray-200">
+    <div className="w-full h-[650px] sm:h-[450px] lg:h-full flex flex-col justify-center items-center py-3 text-sm 2xl:text-base text-center sm:text-start px-6 sm:px-0 sm:pl-2 border-gray-200 border-4 bg-neutral-800 text-gray-200">
       {/* <h1 className="text-3xl xl:text-4xl mb-4 w-full sm:pr-8 xl:pr-0">Hi there!</h1> */}
       <p className="w-full xl:w-3/4 mb-2 leading-8 sm:pr-8 xl:pr-0 text-2xl 2xl:text-4xl font-bold">
         Hi there!
@@ -23,7 +23,7 @@ const AboutSection = () => {
         <a
           href="https://www.reveliolabs.com/"
           target="_blank"
-          className="underline font-bold text-[#2d426a] dark:text-[#4bc679]"
+          className="underline font-bold text-[#4bc679]"
         >
           Revelio Labs
         </a>

@@ -12,7 +12,7 @@ const PageLayout = ({ children }: LayoutProps) => {
   const [filterState, setFilterState] = useState<string>("Latest Projects");
 
   return (
-    <div className="h-full lg:h-screen lg:max-h-screen w-screen max-w-screen flex flex-col justify-center items-center bg-[#ced1d3] dark:bg-neutral-800 dark:text-gray-200 overflow-hidden">
+    <div className="h-full lg:h-screen lg:max-h-screen w-screen max-w-screen flex flex-col justify-center items-center bg-neutral-800 text-gray-200 overflow-hidden">
       <Head>
         <title>Charlie Carr</title>
         <meta name="description" content="Charlie Carr Web Dev Portfolio" />
@@ -28,7 +28,7 @@ const PageLayout = ({ children }: LayoutProps) => {
               <li
                 className={`${
                   filterState === "Latest Projects"
-                    ? "border-b-2 lg:border-b-4 border-black dark:border-gray-200 font-bold"
+                    ? "border-b-2 lg:border-b-4 border-gray-200 font-bold"
                     : "font-light"
                 } mr-8 lg:mr-16 cursor-pointer`}
                 onClick={(e: any) => setFilterState(e.target.innerText)}
@@ -38,7 +38,7 @@ const PageLayout = ({ children }: LayoutProps) => {
               <li
                 className={`${
                   filterState === "Skillset"
-                    ? "border-b-2 lg:border-b-4 border-black dark:border-gray-200 font-bold"
+                    ? "border-b-2 lg:border-b-4 border-gray-200 font-bold"
                     : "font-light"
                 } mr-8 lg:mr-16 cursor-pointer`}
                 onClick={(e: any) => setFilterState(e.target.innerText)}
@@ -48,7 +48,7 @@ const PageLayout = ({ children }: LayoutProps) => {
               <li
                 className={`${
                   filterState === "About"
-                    ? "border-b-2 lg:border-b-4 border-black dark:border-gray-200 font-bold"
+                    ? "border-b-2 lg:border-b-4 border-gray-200 font-bold"
                     : "font-light"
                 } mr-8 lg:mr-16 cursor-pointer`}
                 onClick={(e: any) => setFilterState(e.target.innerText)}

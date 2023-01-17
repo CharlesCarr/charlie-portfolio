@@ -7,11 +7,11 @@ import PageLayout from "../components/layout";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <ThemeProvider enableSystem={true} attribute="class">
+      {/* <ThemeProvider enableSystem={true} attribute="class"> */}
         <PageLayout>
           <Component {...pageProps} />
         </PageLayout>
-      </ThemeProvider>
+      {/* </ThemeProvider> */}
       <Analytics />
     </>
   );

@@ -1,7 +1,7 @@
 const SkillSub = ({ category, skills }: any) => {
   return (
-    <div className="flex-col justify-center items-center py-6 px-3 bg-[#acafb5] dark:bg-neutral-800 h-[300px] sm:h-full">
-      <p className="text-lg font-bold md:border-0 md:border-b-4 border-black dark:border-gray-200 w-full text-center mb-0 sm:mb-4 pb-0 sm:pb-3 tracking-wider">
+    <div className="flex-col justify-center items-center py-6 px-3 bg-neutral-800 h-[300px] sm:h-full">
+      <p className="text-lg font-bold md:border-0 md:border-b-4 border-gray-200 w-full text-center mb-0 sm:mb-4 pb-0 sm:pb-3 tracking-wider">
         {category}
       </p>
       <div className="flex justify-center items-center w-full h-full mt-3">
