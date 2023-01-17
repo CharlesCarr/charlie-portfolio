@@ -10,26 +10,26 @@ function Header() {
     setMounted(true);
   }, []);
 
-  const renderThemeChanger = () => {
-    if (!mounted) return null;
-    const currentTheme = theme === "system" ? systemTheme : theme;
+  // const renderThemeChanger = () => {
+  //   if (!mounted) return null;
+  //   const currentTheme = theme === "system" ? systemTheme : theme;
 
-    if (currentTheme === "dark") {
-      return (
-        <BsMoonFill
-          className="w-6 h-6 cursor-pointer hover:scale-125"
-          onClick={() => setTheme("light")}
-        />
-      );
-    } else {
-      return (
-        <BsSunFill
-          className="w-6 h-6 cursor-pointer hover:scale-125"
-          onClick={() => setTheme("dark")}
-        />
-      );
-    }
-  };
+  //   if (currentTheme === "dark") {
+  //     return (
+  //       <BsMoonFill
+  //         className="w-6 h-6 cursor-pointer hover:scale-125"
+  //         onClick={() => setTheme("light")}
+  //       />
+  //     );
+  //   } else {
+  //     return (
+  //       <BsSunFill
+  //         className="w-6 h-6 cursor-pointer hover:scale-125"
+  //         onClick={() => setTheme("dark")}
+  //       />
+  //     );
+  //   }
+  // };
 
   const openResume = () => {
     window.open("/CharlieCarrResumeDec2022.pdf");
@@ -44,7 +44,7 @@ function Header() {
 
       {/* left header */}
       <div className="flex items-center justify-center">
-        <div className="text-xs">{renderThemeChanger()}</div>
+        {/* <div className="text-xs">{renderThemeChanger()}</div> */}
         {/* <button className="border-2 ml-7 border-black dark:border-gray-200 py-1 px-3 text-base sm:text-lg">
           Resume
         </button> */}
