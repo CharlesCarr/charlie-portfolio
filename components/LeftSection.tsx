@@ -62,7 +62,7 @@ function LeftSection() {
 
         <ul className="w-full m-0 p-0 mt-3 flex flex-col justify-center items-center lg:block">
           <li className="text-sm lg:text-xs 2xl:text-sm font-light mb-2">
-            Prev. Front End Intern @ Revelio Labs
+            Prev. Front End Dev @ Revelio Labs
           </li>
           <li className="text-sm lg:text-xs 2xl:text-sm font-light mb-2">
             React / TypeScript Enthusiast

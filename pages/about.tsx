@@ -6,20 +6,25 @@ const AboutSection = () => {
         Hi there!
       </p>
       <p className="w-full xl:w-3/4 mb-2 leading-8 sm:pr-8 xl:pr-0">
-        My name is <span className="font-bold">Charlie Carr</span> and I am a <span className="font-bold">NYC-based software developer</span>. I am
-        currently pursuing my next opportunity and open to both <span className="font-bold">remote and
-        in-office work</span>.
+        My name is <span className="font-bold">Charlie Carr</span> and I am a{" "}
+        <span className="font-bold">NYC-based software developer</span>. I am
+        currently pursuing my next opportunity and open to both{" "}
+        <span className="font-bold">remote and in-office work</span>.
       </p>
       <p className="w-full xl:w-3/4 mb-2 leading-8 sm:pr-8 xl:pr-0">
-        I have spent my <span className="font-bold">career in tech</span> working in enterprise software for both
-        small startups as well as large tech corporations. After starting in
-        software sales, my passion and curiosity for these products fueled my
-        desire to become more technical and attend a <span className="font-bold">full stack web development
-        coding bootcamp</span>.
+        I have spent my <span className="font-bold">career in tech</span>{" "}
+        working in enterprise software for both small startups as well as large
+        tech corporations. After starting in software sales, my passion and
+        curiosity for these products fueled my desire to become more technical
+        and attend a{" "}
+        <span className="font-bold">
+          full stack web development coding bootcamp
+        </span>
+        .
       </p>
       <p className="w-full xl:w-3/4 leading-8 sm:pr-8 xl:pr-0">
-        I recently finished my first engineering role as a <span className="font-bold">front end development
-        intern</span> at{" "}
+        I recently finished my first engineering contract position as a{" "}
+        <span className="font-bold">front end developer</span> at{" "}
         <a
           href="https://www.reveliolabs.com/"
           target="_blank"
@@ -28,7 +33,8 @@ const AboutSection = () => {
           Revelio Labs
         </a>
         , a labor market data platform, where I actively contributed to the
-        front end enterprise dashboard in a <span className="font-bold">React/TypeScript code base</span>.
+        front end enterprise dashboard in a{" "}
+        <span className="font-bold">React/TypeScript code base</span>.
       </p>
     </div>
   );
