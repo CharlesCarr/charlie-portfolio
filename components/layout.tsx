@@ -1,18 +1,19 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
+import Card from "./Card";
 import Header from "./Header";
 import LeftSection from "./LeftSection";
 
 type LayoutProps = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 const PageLayout = ({ children }: LayoutProps) => {
   const [filterState, setFilterState] = useState<string>("Latest Projects");
 
   return (
-    <div className="h-full lg:h-screen lg:max-h-screen w-screen max-w-screen flex flex-col justify-center items-center bg-neutral-800 text-gray-200 overflow-hidden">
+    <div className="h-full min-h-screen w-screen max-w-screen flex flex-col justify-center items-center bg-neutral-800 text-gray-200">
       <Head>
         <title>Charlie Carr</title>
         <meta name="description" content="Charlie Carr Web Dev Portfolio" />
@@ -20,7 +21,20 @@ const PageLayout = ({ children }: LayoutProps) => {
       </Head>
 
       <Header />
-      <div className="w-full h-full lg:h-header flex flex-col lg:flex-row justify-center items-center lg:justify-start lg:items-start">
+
+      <div className="h-5/6 w-full flex flex-col items-start px-20">
+        <h1 className="mt-20 text-4xl">
+          Full stack software developer, <br /> based in NYC
+        </h1>
+
+        <div className="mt-32 flex gap-4">
+         <Card />
+         <Card />
+         <Card />
+        </div>
+      </div>
+
+      {/* <div className="w-full h-full lg:h-header flex flex-col lg:flex-row justify-center items-center lg:justify-start lg:items-start">
         <LeftSection />
         <main className="w-full lg:w-3/4 h-full flex flex-col p-6 px-px sm:px-6 pt-10 sm:pt-6">
           <div className="flex justify-center items-end w-full h-1/6">
@@ -62,7 +76,7 @@ const PageLayout = ({ children }: LayoutProps) => {
             {children}
           </div>
         </main>
-      </div>
+      </div> */}
     </div>
   );
 };
