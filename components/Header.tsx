@@ -40,7 +40,7 @@ function Header() {
   return (
     <header className="flex h-1/6 w-full items-center justify-between px-20 tracking-wide pt-10">
       <div className="flex gap-x-5 items-center">
-        <div className="w-16 h-16 flex flex-col justify-center items-center relative">
+        <div className="w-14 h-14 flex flex-col justify-center items-center relative">
           <Image
             src="/images/headshot.jpg"
             alt="headshot"
