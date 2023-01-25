@@ -1,7 +1,7 @@
 
 const Card = () => {
   return (
-    <div className="h-52 w-80 border flex flex-col p-4 text-sm rounded-md gap-y-1 relative">
+    <div className="h-52 w-80 flex flex-col p-4 text-sm rounded-md gap-y-1 relative bg-neutral-900/[.75] drop-shadow-2xl border">
       <p className="font-bold">
         Mainstage{" "}
         <span className="font-extralight text-xs">

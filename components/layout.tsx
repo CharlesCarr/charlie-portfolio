@@ -13,7 +13,7 @@ const PageLayout = ({ children }: LayoutProps) => {
   const [filterState, setFilterState] = useState<string>("Latest Projects");
 
   return (
-    <div className="h-full min-h-screen w-screen max-w-screen flex flex-col justify-center items-center bg-neutral-800 text-gray-200">
+    <div className="h-full min-h-screen w-screen max-w-screen flex flex-col justify-start items-center bg-gradient-three bg-center bg-cover text-gray-200 relative">
       <Head>
         <title>Charlie Carr</title>
         <meta name="description" content="Charlie Carr Web Dev Portfolio" />
@@ -23,9 +23,8 @@ const PageLayout = ({ children }: LayoutProps) => {
       <Header />
 
       <div className="h-5/6 w-full flex flex-col items-start px-20">
-        <h1 className="mt-20 text-4xl">
-          Full stack software developer, <br /> based in NYC
-        </h1>
+        <h1 className="mt-24 text-5xl">Full stack software developer,</h1>
+        <h1 className="mt-2 text-5xl">based in NYC</h1>
 
         <div className="mt-32 flex gap-4">
          <Card />

@@ -38,22 +38,32 @@ function Header() {
   // };
 
   return (
-    <header className="flex h-1/6 w-full items-center justify-between px-20">
-      <div className="bg-neutral-800 w-16 h-16 flex flex-col justify-center items-center relative">
-        <Image
-          src="/images/headshot.jpg"
-          alt="headshot"
-          fill
-          priority
-          // min-h-[250px]
-          className="rounded-full object-cover overflow-hidden"
-        />
+    <header className="flex h-1/6 w-full items-center justify-between px-20 tracking-wide pt-10">
+      <div className="flex gap-x-5 items-center">
+        <div className="w-16 h-16 flex flex-col justify-center items-center relative">
+          <Image
+            src="/images/headshot.jpg"
+            alt="headshot"
+            fill
+            priority
+            // min-h-[250px]
+            className="rounded-full object-cover overflow-hidden"
+          />
+        </div>
+
+        <p>charlie-carr.com</p>
       </div>
 
       <div className="flex justify-center items-center gap-x-10 text-sm">
         <p>Projects</p>
+        <p>Articles</p>
         <p>About</p>
         <p>Contact</p>
+      </div>
+
+      <div className="flex justify-center items-center gap-x-6">
+        {/* <p>test</p> */}
+        <button className="bg-white text-black rounded-lg px-4 py-2">Resume</button>
       </div>
     </header>
   );
