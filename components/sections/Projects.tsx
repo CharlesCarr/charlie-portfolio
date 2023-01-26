@@ -40,7 +40,7 @@ export const Projects = () => {
     },
     {
       id: 3,
-      title: "WORKOUT APP",
+      title: "WORKOUT TRACKER",
       image: "/images/projects/WorkoutApp.png",
       description:
         "Custom workout tracker web app. Enabling users to create profiles and create, save, and edit workouts. Ability to select workout for the day to have on hand while at the gym.",
@@ -63,7 +63,12 @@ export const Projects = () => {
   ];
 
   return (
-    <div className="min-h-screen w-full max-w-screen bg-[#1a1a1a] px-20 pt-40 flex flex-col items-start pb-20">
+    <div className="min-h-screen w-full max-w-screen bg-[#1a1a1a] px-20 pt-24 flex flex-col items-start pb-44 relative overflow-hidden">
+      <div className="absolute -bottom-64 left-20 w-full h-72 bg-slate-200 rounded-full mix-blend-lighten filter blur-3xl opacity-[.06]"></div>
+      {/* <div className="absolute -top-20 right-0 w-96 h-72 bg-slate-200 rounded-full mix-blend-lighten filter blur-3xl opacity-[.06]"></div>
+      <div className="absolute -top-20 left-0 w-96 h-72 bg-slate-200 rounded-full mix-blend-lighten filter blur-3xl opacity-[.06]"></div> */}
+
+
       <div className="mb-10">
         <h1 className="text-4xl font-semibold">Latest Projects</h1>
         <div className="bg-gray-200 h-px w-96 mt-3"></div>

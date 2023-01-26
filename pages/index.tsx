@@ -15,9 +15,11 @@ export default function Home() {
       </Head>
 
       <Landing />
-      <Projects />
+      
       {/* <Articles /> */}
       <About />
+      <Projects />
+      
       <Contact />
     </div>
   );

@@ -55,9 +55,9 @@ function Header() {
       </div>
 
       <div className="flex justify-center items-center gap-x-10 text-sm">
-        <p>Projects</p>
-        <p>Articles</p>
+        {/* <p>Articles</p> */}
         <p>About</p>
+        <p>Projects</p>
         <p>Contact</p>
       </div>
 
