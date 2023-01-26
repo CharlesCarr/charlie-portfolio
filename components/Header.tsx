@@ -51,7 +51,7 @@ function Header() {
           />
         </div>
 
-        <p>charlie-carr.com</p>
+        <p className="text-sm">charlie-carr.com</p>
       </div>
 
       <div className="flex justify-center items-center gap-x-10 text-sm">
@@ -63,7 +63,7 @@ function Header() {
 
       <div className="flex justify-center items-center gap-x-6">
         {/* <p>test</p> */}
-        <button className="bg-white text-black rounded-lg px-4 py-2">Resume</button>
+        <button className="bg-white/[.75] text-black text-sm rounded-lg px-4 py-2">Resume</button>
       </div>
     </header>
   );

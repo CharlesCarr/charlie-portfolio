@@ -10,14 +10,14 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Space Grotesk", "sans-serif"],
+        serif: ["Cormorant", "sans-serif"],
       },
       screens: {
         lg: "1085px",
       },
       backgroundImage: {
-        "gradient-one": "url('../public/images/background/10.jpg')",
-        "gradient-two": "url('../public/images/background/10180.jpg')",
-        "gradient-three": "url('../public/images/background/18.jpg')",
+        "gradient-one": "url('../public/images/background/18.jpg')",
+        "gradient-two": "url('../public/images/background/18180.jpg')",
       },
     },
   },

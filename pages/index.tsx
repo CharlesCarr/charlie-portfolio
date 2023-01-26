@@ -7,7 +7,7 @@ import { Projects } from "../components/sections/Projects";
 
 export default function Home() {
   return (
-    <div className="h-full w-screen text-gray-200 bg-black">
+    <div className="h-full w-screen text-gray-200 bg-[#1a1a1a]">
       <Head>
         <title>Charlie Carr</title>
         <meta name="description" content="Charlie Carr Web Dev Portfolio" />
@@ -16,7 +16,7 @@ export default function Home() {
 
       <Landing />
       <Projects />
-      <Articles />
+      {/* <Articles /> */}
       <About />
       <Contact />
     </div>
