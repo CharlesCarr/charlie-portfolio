@@ -1,41 +1,9 @@
-// import { useState, useEffect } from "react";
-// import { useTheme } from "next-themes";
-// import { BsMoonFill, BsSunFill } from "react-icons/bs";
-
 import Image from "next/image";
 
 function Header() {
-  // const [mounted, setMounted] = useState<boolean>(false);
-  // const { systemTheme, theme, setTheme } = useTheme();
-
-  // useEffect(() => {
-  //   setMounted(true);
-  // }, []);
-
-  // const renderThemeChanger = () => {
-  //   if (!mounted) return null;
-  //   const currentTheme = theme === "system" ? systemTheme : theme;
-
-  //   if (currentTheme === "dark") {
-  //     return (
-  //       <BsMoonFill
-  //         className="w-6 h-6 cursor-pointer hover:scale-125"
-  //         onClick={() => setTheme("light")}
-  //       />
-  //     );
-  //   } else {
-  //     return (
-  //       <BsSunFill
-  //         className="w-6 h-6 cursor-pointer hover:scale-125"
-  //         onClick={() => setTheme("dark")}
-  //       />
-  //     );
-  //   }
-  // };
-
-  // const openResume = () => {
-  //   window.open("/CharlieCarrResumeJan2023.pdf");
-  // };
+  const openResume = () => {
+    window.open("/CharlieCarrResumeJan2023.pdf");
+  };
 
   return (
     <header className="flex h-1/6 w-full items-center justify-between tracking-wide pt-10">
@@ -51,19 +19,29 @@ function Header() {
           />
         </div>
 
-        <p className="text-sm">charlie-carr.com</p>
+        <p className="text-sm hidden md:block">charlie-carr.com</p>
       </div>
 
-      <div className="flex justify-center items-center gap-x-10 text-sm">
+      <div className="flex justify-center items-center gap-x-2 md:gap-x-10 text-sm">
         {/* <p>Articles</p> */}
-        <p>About</p>
-        <p>Projects</p>
-        <p>Contact</p>
+        <p className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-white before:transition hover:before:scale-100 hover:text-white text-gray-200 duration-500">
+          <a href="#about">About</a>
+        </p>
+        <p className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-white before:transition hover:before:scale-100 hover:text-white text-gray-200 duration-500">
+          <a href="#projects">Projects</a>
+        </p>
+        <p className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-white before:transition hover:before:scale-100 hover:text-white text-gray-200 duration-500">
+          <a href="#contact">Contact</a>
+        </p>
       </div>
 
       <div className="flex justify-center items-center gap-x-6">
-        {/* <p>test</p> */}
-        <button className="bg-white/[.75] text-black text-sm rounded-lg px-4 py-2">Resume</button>
+        <button
+          className="bg-white/[.6] text-black text-sm rounded-lg px-4 py-2 hover:drop-shadow-2xl hover:bg-white/[.90] ease-in duration-200"
+          onClick={openResume}
+        >
+          Resume
+        </button>
       </div>
     </header>
   );
