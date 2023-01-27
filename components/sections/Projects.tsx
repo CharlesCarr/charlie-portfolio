@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { NewProject } from "../NewProject";
-import Project from "../Project";
 
 export const Projects = () => {
   const allProjects = [
@@ -79,6 +77,7 @@ export const Projects = () => {
         {allProjects.map(
           ({ title, image, description, github, demo, tech, path }) => (
             <NewProject
+              key={title}
               title={title}
               image={image}
               description={description}

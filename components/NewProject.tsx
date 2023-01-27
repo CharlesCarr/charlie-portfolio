@@ -58,7 +58,7 @@ export const NewProject = ({
 
           <div className="flex gap-3 text-xs font-extralight mb-2">
             {tech.map((t: string) => (
-              <p>{t}</p>
+              <p key={t}>{t}</p>
             ))}
           </div>
 
