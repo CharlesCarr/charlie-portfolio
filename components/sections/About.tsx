@@ -5,9 +5,9 @@ export const About = () => {
   return (
     <div
       id="about"
-      className="min-h-screen h-full w-full max-w-screen bg-[#1a1a1a] flex flex-col pt-20 md:pt-44 pb-32 relative overflow-hidden"
+      className="min-h-screen h-full w-full max-w-screen bg-[#1a1a1a] flex flex-col pt-20 md:pt-44 pb-32 relative sm:overflow-hidden"
     >
-      <div className="absolute -top-44 left-20 w-full h-72 bg-green-500 rounded-full mix-blend-lighten filter blur-3xl opacity-[.06]"></div>
+      <div className="absolute -top-44 left-20 w-full h-72 bg-gray-200 sm:bg-green-500 rounded-full mix-blend-lighten filter blur-3xl opacity-[.06]"></div>
 
       <div className="w-full flex justify-center items-center">
         <div className="flex w-full justify-center items-center gap-4 sm:gap-10 px-4 sm:px-0">
@@ -75,7 +75,7 @@ export const About = () => {
 
           <div className="w-full flex justify-center font-light gap-x-6">
             <ul className="text-sm list-disc w-full min-w-52 flex flex-col gap-y-2 ml-6">
-              <li>Everything React/Next.js !</li>
+              <li>Everything React/Next.js</li>
               <li>Data Fetching with React Query</li>
               <li>Building APIs with Apollo/GraphQL</li>
             </ul>
@@ -97,7 +97,7 @@ export const About = () => {
             <ul className="text-sm list-disc w-full min-w-52 flex flex-col gap-y-2 ml-6">
               <li>Actively seeking new front end or full stack position</li>
               <li>
-                Complete more projects with Prisma, Next, PostgreSQL stack
+                Build more full stack serverless Next.js apps
               </li>
               <li>Technical Writing / Creating Dev Content</li>
               <li>Learn Docker & Kubernetes</li>

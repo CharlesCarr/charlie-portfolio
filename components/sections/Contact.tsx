@@ -13,6 +13,8 @@ export const Contact = () => {
       id="contact"
       className="min-h-screen max-h-screen w-full max-w-screen px-20 bg-[#1a1a1a] flex flex-col justify-center items-center relative"
     >
+      <div className="block sm:hidden absolute m-auto top-44 w-full h-44 bg-gray-200 rounded-full mix-blend-lighten filter blur-3xl opacity-[.20]"></div>
+
       <Image
         src={GradientImg}
         alt="background-gradient"
@@ -73,7 +75,7 @@ export const Contact = () => {
         <p>Designed & Developed by Charlie</p>
 
         <div
-          className="flex justify-center items-center gap-1 text-gray-200 hover:text-black ease-in duration-300 cursor-pointer"
+          className="flex justify-center items-center gap-1 text-gray-200 hover:text-orange-700 sm:hover:text-black ease-in duration-300 cursor-pointer"
           onClick={() =>
             iconClickHandler("https://github.com/CharlesCarr/charlie-portfolio")
           }
