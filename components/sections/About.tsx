@@ -10,12 +10,12 @@ export const About = () => {
       <div className="absolute -top-44 left-20 w-full h-72 bg-green-500 rounded-full mix-blend-lighten filter blur-3xl opacity-[.06]"></div>
 
       <div className="w-full flex justify-center items-center">
-        <div className="flex w-full justify-center items-center gap-10">
-          <h1 className="text-2xl sm:text-5xl font-light tracking-wide text-white">
+        <div className="flex w-full justify-center items-center gap-4 sm:gap-10 px-4 sm:px-0">
+          <h1 className="text-4xl sm:text-5xl font-light tracking-wide text-white">
             Charlie Carr
           </h1>
 
-          <div className="h-px w-16 bg-gray-200"></div>
+          <div className="h-px w-16 bg-gray-200 hidden sm:block"></div>
 
           <div className="h-[100px] w-[100px] sm:h-[175px] sm:w-[175px] flex justify-center items-center relative bg-[#1a1a1a]">
             <Image

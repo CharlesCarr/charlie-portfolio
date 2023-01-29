@@ -18,11 +18,10 @@ export const Contact = () => {
         alt="background-gradient"
         fill
         style={{ objectFit: "cover", objectPosition: "center", zIndex: "10" }}
-        onLoadStart={() => console.log("Loading Started!")}
-        onLoad={() => console.log("Image Loaded!!")}
+        className="hidden sm:block"
       />
 
-      <h1 className="z-50 text-4xl md:text-5xl mb-6 text-white">
+      <h1 className="z-50 text-3xl sm:text-4xl md:text-5xl mb-6 text-white">
         Let's Connect!
       </h1>
 
@@ -70,7 +69,7 @@ export const Contact = () => {
         </button>
       </form> */}
 
-      <div className="z-50 absolute left-2 bottom-2 flex justify-center items-center text-xs gap-6">
+      <div className="z-50 absolute m-auto sm:m-0 sm:left-2 bottom-2 flex justify-center items-center text-xs gap-6">
         <p>Designed & Developed by Charlie</p>
 
         <div
