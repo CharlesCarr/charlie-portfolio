@@ -21,7 +21,7 @@ export default function Home() {
   if (!imgLoaded) return <Loader />;
 
   return (
-    <div className="h-full w-screen min-w-screen text-gray-200 bg-[#1a1a1a]">
+    <div className="h-full w-full min-w-screen text-gray-200 bg-[#1a1a1a]">
       <Head>
         <title>Charlie Carr</title>
         <meta name="description" content="Charlie Carr Web Dev Portfolio" />
