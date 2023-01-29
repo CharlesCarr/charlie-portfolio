@@ -1,5 +1,7 @@
+import Image from "next/image";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import GradientImg from "../../public/images/background/18.jpg";
 
 export const Contact = () => {
   const iconClickHandler = (link: string) => {
@@ -9,11 +11,22 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen max-h-screen w-full max-w-screen px-20 bg-gradient-one bg-center bg-cover flex flex-col justify-center items-center relative"
+      className="min-h-screen max-h-screen w-full max-w-screen px-20 bg-[#1a1a1a] flex flex-col justify-center items-center relative"
     >
-      <h1 className="text-4xl md:text-5xl mb-6 text-white">Let's Connect!</h1>
+      <Image
+        src={GradientImg}
+        alt="background-gradient"
+        fill
+        style={{ objectFit: "cover", objectPosition: "center", zIndex: "10" }}
+        onLoadStart={() => console.log("Loading Started!")}
+        onLoad={() => console.log("Image Loaded!!")}
+      />
 
-      <div className="flex justify-center items-center gap-4 mb-6 text-gray-200">
+      <h1 className="z-50 text-4xl md:text-5xl mb-6 text-white">
+        Let's Connect!
+      </h1>
+
+      <div className="z-50 flex justify-center items-center gap-4 mb-6 text-gray-200">
         <div
           className="flex gap-1 hover:text-orange-700 ease-in duration-200 cursor-pointer"
           onClick={() =>
@@ -26,14 +39,10 @@ export const Contact = () => {
 
         <div
           className="flex gap-1 hover:text-orange-700 ease-in duration-200 cursor-pointer"
-          onClick={() =>
-            iconClickHandler("https://github.com/CharlesCarr")
-          }
+          onClick={() => iconClickHandler("https://github.com/CharlesCarr")}
         >
           <p>GitHub</p>
-          <FaGithub
-            className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6"
-          />
+          <FaGithub className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6" />
         </div>
 
         <div
@@ -61,7 +70,7 @@ export const Contact = () => {
         </button>
       </form> */}
 
-      <div className="absolute left-2 bottom-2 flex justify-center items-center text-xs gap-6">
+      <div className="z-50 absolute left-2 bottom-2 flex justify-center items-center text-xs gap-6">
         <p>Designed & Developed by Charlie</p>
 
         <div

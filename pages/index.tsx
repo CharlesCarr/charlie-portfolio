@@ -1,5 +1,4 @@
 import Head from "next/head";
-// import { useEffect, useState } from "react";
 import { About } from "../components/sections/About";
 // import { Articles } from "../components/sections/Articles";
 import { Contact } from "../components/sections/Contact";
@@ -7,25 +6,6 @@ import Landing from "../components/sections/Landing";
 import { Projects } from "../components/sections/Projects";
 
 export default function Home() {
-  // const [imgLoaded, setImgLoaded] = useState(false);
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     console.log('testing timeout');
-  //     setImgLoaded(true);
-  //   }, 3000);
-  // }, []);
-
-  /*
-  useEffect(() => {
-    // preload the next page
-    import('../components/sections/Landing');
-    setImgLoaded(true);
-  }, [])
-  */
-
-  // if (!imgLoaded) return <p>Loading...</p>
-
   return (
     <div className="h-full w-screen text-gray-200 bg-[#1a1a1a]">
       <Head>
