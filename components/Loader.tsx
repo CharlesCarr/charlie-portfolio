@@ -15,7 +15,7 @@ export const Loader = () => {
         />
         <div className="absolute w-96 h-96 bg-gray-200 rounded-full mix-blend-lighten filter blur-3xl opacity-[.20]"></div>
       </div>
-      <h1 className="text-5xl mb-8 font-light">charlie-carr.com</h1>
+      <h1 className="text-2xl sm:text-5xl mb-8 font-light">charlie-carr.com</h1>
       <ReactLoading
         type="spin"
         color="rgb(229 231 235)"
