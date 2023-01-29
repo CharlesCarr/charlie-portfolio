@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaCamera, FaGithub } from "react-icons/fa";
+import { BsInfoCircleFill } from "react-icons/bs";
 import { HiExternalLink } from "react-icons/hi";
-import { IoMdCloseCircle } from "react-icons/io";
 
 export const NewProject = ({
   title,
@@ -13,7 +13,7 @@ export const NewProject = ({
   tech,
   path,
 }: any) => {
-  const [showImg, setShowImg] = useState(false);
+  const [showImg, setShowImg] = useState(true);
 
   const iconClickHandler = (link: string) => {
     window.open(link);
@@ -28,26 +28,26 @@ export const NewProject = ({
       {showImg ? (
         <div className="absolute top-3 left-4 flex justify-between w-full">
           <p className="text-2xl text-white">{title}</p>
-          <IoMdCloseCircle
+          <BsInfoCircleFill
             className="w-8 h-8 cursor-pointer text-orange-700 hover:text-orange-800 z-50 mr-7"
-            onClick={() => setShowImg(!showImg)}
+            onClick={() => setShowImg(false)}
           />
         </div>
       ) : (
         <FaCamera
           className="absolute top-6 right-6 w-6 h-6 cursor-pointer hover:text-orange-700 z-50 ease-in duration-200"
-          onClick={() => setShowImg(!showImg)}
+          onClick={() => setShowImg(true)}
         />
       )}
 
       {showImg ? (
-        <div className="h-[215px] w-[360px] flex justify-center items-center relative mt-10">
+        <div className="h-[215px] w-[360px] flex justify-center items-center relative mt-10" onClick={() => setShowImg(false)}>
           <Image
             src={image}
             alt="project image"
             fill
             priority
-            className="object-contain overflow-hidden rounded-lg"
+            className="object-contain overflow-hidden rounded-lg cursor-pointer"
           />
         </div>
       ) : (
