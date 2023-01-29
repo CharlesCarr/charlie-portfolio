@@ -15,7 +15,7 @@ export default function Home() {
 
     setTimeout(() => {
       setImgLoaded(true);
-    }, 1000);
+    }, 2000);
   }, []);
 
   if (!imgLoaded) return <Loader />;
