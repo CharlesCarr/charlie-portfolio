@@ -29,13 +29,13 @@ export const NewProject = ({
         <div className="absolute top-3 left-4 flex justify-between w-full">
           <p className="text-2xl text-white">{title}</p>
           <BsInfoCircleFill
-            className="w-8 h-8 cursor-pointer text-orange-700 hover:text-orange-800 z-50 mr-7"
+            className="w-8 h-8 cursor-pointer text-orange-700 hover:text-orange-600 z-50 mr-7"
             onClick={() => setShowImg(false)}
           />
         </div>
       ) : (
         <FaCamera
-          className="absolute top-6 right-6 w-6 h-6 cursor-pointer hover:text-orange-700 z-50 ease-in duration-200"
+          className="absolute top-6 right-6 w-8 h-8 cursor-pointer text-orange-700 hover:text-orange-600 z-50 ease-in duration-200"
           onClick={() => setShowImg(true)}
         />
       )}
@@ -83,7 +83,7 @@ export const NewProject = ({
                     className="flex justify-center items-center gap-1 hover:text-orange-700 ease-in duration-200"
                     onClick={() => iconClickHandler(demo)}
                   >
-                    <p>Demo</p>
+                    <p>Live Project</p>
                     <HiExternalLink className="w-4 h-4" />
                   </button>
                 )}
