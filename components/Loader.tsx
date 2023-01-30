@@ -3,7 +3,7 @@ import ReactLoading from "react-loading";
 
 export const Loader = () => {
   return (
-    <div className="w-screen h-screen flex flex-col justify-start items-center text-gray-200 bg-[#1a1a1a] pt-32">
+    <div className="fixed w-screen h-screen top-0 left-0 flex flex-col justify-start items-center text-gray-200 bg-[#1a1a1a] pt-32 z-50">
       <div className="w-44 h-44 flex flex-col justify-center items-center relative mb-4">
         <Image
           src="/images/headshot.jpg"
