@@ -8,13 +8,23 @@ import { Loader } from "../Loader";
 
 const Landing = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
+  const [windowWidth, setWindowWidth] = useState<number | null>(null);
+  console.log(windowWidth);
 
   useEffect(() => {
-    console.log("Component Mounted");
-  }, []);
+    setWindowWidth(window.innerWidth);
+  });
+
+  useEffect(() => {
+    // console.log("Component Mounted");
+
+    if (windowWidth && windowWidth < 640) {
+      setImgLoaded(true);
+    }
+  }, [windowWidth]);
 
   const imageLoadedHandler = () => {
-    console.log("Image Loading Completed");
+    // console.log("Image Loading Completed");
     setImgLoaded(true);
   };
 
