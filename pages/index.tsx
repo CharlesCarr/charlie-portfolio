@@ -11,11 +11,7 @@ export default function Home() {
   const [imgLoaded, setImgLoaded] = useState(false);
 
   useEffect(() => {
-    import("../public/images/background/18.jpg");
-
-    setTimeout(() => {
-      setImgLoaded(true);
-    }, 2000);
+    import("../public/images/background/18.jpg").then(() => setImgLoaded(true));
   }, []);
 
   if (!imgLoaded) return <Loader />;
