@@ -36,7 +36,7 @@ const Card = ({ type, tech, title, description, github, demo, link }: any) => {
               className="flex justify-center items-center gap-1 text-xs hover:text-orange-700 ease-in duration-200"
               onClick={() => iconClickHandler(demo)}
             >
-              <p>Demo</p>
+              <p>Live Link</p>
               <HiExternalLink className="w-4 h-4" />
             </button>
           )}

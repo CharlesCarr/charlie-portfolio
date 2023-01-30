@@ -9,7 +9,7 @@ import { Loader } from "../Loader";
 const Landing = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
   const [windowWidth, setWindowWidth] = useState<number | null>(null);
-  console.log(windowWidth);
+  // console.log(windowWidth);
 
   useEffect(() => {
     setWindowWidth(window.innerWidth);
@@ -25,7 +25,10 @@ const Landing = () => {
 
   const imageLoadedHandler = () => {
     // console.log("Image Loading Completed");
-    setImgLoaded(true);
+
+    setTimeout(() => {
+      setImgLoaded(true);
+    }, 1000);
   };
 
   return (

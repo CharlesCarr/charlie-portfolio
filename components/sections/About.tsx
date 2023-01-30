@@ -42,7 +42,7 @@ export const About = () => {
             I primarily work in JavaScript/TypeScript and am currently learning
             more Python. I enjoy working for small startups where I can add
             value in many different areas. Prior to life as a dev, I was a high
-            performer on the GTM side of the industry at Oracle and Blend. From
+            performer on the GTM teams at Oracle and Blend. From
             this experience, I bring strong communication skills and the ability
             to build effectively through the lens of the customer/end user.
           </p>
