@@ -48,7 +48,7 @@ export const Contact = () => {
 
         <div
           className="flex gap-1 hover:text-orange-700 ease-in duration-200 cursor-pointer"
-          onClick={() => iconClickHandler("https://twitter.com/CHAR_CARR_DEV")}
+          onClick={() => iconClickHandler("https://twitter.com/local_host_cc")}
         >
           <p>Twitter</p>
           <FaTwitter className="w-6 h-6 md:w-7 md:h-7 lg:w-6 lg:h-6" />
