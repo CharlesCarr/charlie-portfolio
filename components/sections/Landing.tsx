@@ -37,7 +37,7 @@ const Landing = () => {
         src={GradientImg}
         alt="background-gradient"
         fill
-        className={`hidden sm:block ${imgLoaded && "z-0"}`}
+        className={`hidden lg:block ${imgLoaded && "z-0"}`}
         style={{
           objectFit: "cover",
           objectPosition: "center",

@@ -6,7 +6,7 @@ function Header() {
   };
 
   return (
-    <header className="flex h-1/6 w-full items-center justify-between tracking-wide pt-10">
+    <header className="flex h-1/6 w-full items-center justify-between tracking-wide pt-10 px-2 sm:px-0">
       <div className="flex gap-x-5 items-center">
         <div className="w-14 h-14 flex flex-col justify-center items-center relative">
           <Image

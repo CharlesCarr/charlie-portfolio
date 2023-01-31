@@ -7,7 +7,7 @@ const Card = ({ type, tech, title, description, github, demo, link }: any) => {
   };
 
   return (
-    <div className="z-50 h-52 w-[350px] md:w-[300px] lg:w-[325px] flex flex-col p-4 text-sm rounded-md gap-y-1 relative bg-neutral-900/[.75] drop-shadow-2xl border">
+    <div className="z-50 h-52 w-[350px] md:w-[300px] lg:w-[310px] xl:w-[330px] flex flex-col p-4 text-sm rounded-md gap-y-1 relative bg-neutral-900/[.75] drop-shadow-2xl border">
       <div className="flex w-full justify-between items-center">
         <p className="font-bold">
           {type} <span className="font-extralight text-xs">| {tech}</span>
