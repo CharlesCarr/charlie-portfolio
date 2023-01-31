@@ -15,9 +15,9 @@ export const spotlights = [
     title: "Fetching Data in React",
     description:
       "Technical article discussing the different approaches of fetching data in React applications",
-    github: null,
-    demo: null,
-    link: "Article Coming Soon...",
+    github: "https://github.com/CharlesCarr/react-data-fetch",
+    demo: "https://dev.to/char_carr_dev/6-approaches-for-data-fetching-in-react-1ec3",
+    link: "Next Article Coming Soon...",
   },
   {
     type: "Chrome Extension",
