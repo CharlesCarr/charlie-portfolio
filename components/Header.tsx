@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Header() {
   const openResume = () => {
-    window.open("/CharlieCarrResumeJan2023.pdf");
+    window.open("/CharlieCarrResumeFeb2023.pdf");
   };
 
   return (
